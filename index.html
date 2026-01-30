@@ -248,8 +248,8 @@ function renderOrder() {
     "",
     ...order.map((i, idx) =>
       `${idx + 1}) ${i.brand} ${i.line}\n` +
-      `   • Category: ${i.category}\n` +
-      `   • Flavour: ${i.flavour}\n` +
+      `   • ${i.category}\n` +
+      `   • ${i.flavour}\n` +
       `   • Qty: ${i.qty}\n`
     )
   ].join("\n");
