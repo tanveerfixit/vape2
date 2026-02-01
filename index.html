@@ -103,16 +103,24 @@
 
 </main>
 
-<script>
-/* PRODUCT DATABASE */
+<script>/* PRODUCT DATABASE */
 const products = [
   { category: "Disposable Vape", brand: "Lost Mary", line: "BM6000" },
+  { category: "Disposable Vape", brand: "Lost Mary", line: "4in1" },
   { category: "Disposable Vape", brand: "IVG", line: "Smart 5500" },
-  { category: "Disposable Vape", brand: "Elf Bar", line: "BC5000" },
-  { category: "E-Liquid (Nic Salt)", brand: "ELFLIQ", line: "Nic Salts Series" }
+  { category: "Disposable Vape", brand: "IVG", line: "2400" },
+  { category: "Disposable Vape", brand: "Elf Bar", line: "AF5000" }, // Corrected from BC5000 based on image
+  { category: "Disposable Vape", brand: "Elf Bar", line: "4in1" },
+  { category: "E-Liquid (Nic Salt)", brand: "ELFLIQ", line: "Nic Salts Series" },
+  { category: "E-Liquid (Nic Salt)", brand: "MaryLiq", line: "Nic Salts Series" },
+  { category: "Nicotine Pouches", brand: "Cuba", line: "Ninja / White" },
+  { category: "Nicotine Pouches", brand: "Killa", line: "Extra Strong" },
+  { category: "Nicotine Pouches", brand: "Pablo", line: "Exclusive" },
+  { category: "Caffeine Pouches", brand: "Booster", line: "Strong" }
 ];
 
 /* FLAVOUR SUGGESTIONS */
+// Added missing flavours found in images: Fizzy Cherry, Pineapple Ice, Triple Melon, etc.
 const flavourSuggestions = [
   "Lemon Lime", "Pink Lemonade", "Orange", "Blood Orange", "Grapefruit", "Lemon Ice",
   "Blue Razz Lemonade", "Blueberry", "Blueberry Ice", "Blueberry Sour Raspberry", 
@@ -123,7 +131,8 @@ const flavourSuggestions = [
   "Cherry Cola", "Cola Ice", "Energy Drink", "Pink Energy",
   "Menthol", "Fresh Mint", "Spearmint", "Cool Mint", "Ice Mint",
   "Banana Ice", "Banana Strawberry", "Cotton Candy", "Bubblegum",
-  "Summer Grape", "Tropical Punch", "Rainbow Candy"
+  "Summer Grape", "Tropical Punch", "Rainbow Candy",
+  "Fizzy Cherry", "Triple Melon", "Pineapple Cola", "Blue Razz Cherry", "Blueberry Kiwi", "Forest Berries"
 ];
 
 /* STATE */
